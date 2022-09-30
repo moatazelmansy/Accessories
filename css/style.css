@@ -1,0 +1,52 @@
+body{
+    font-family: Tajawal;
+}
+header{
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.11)) ,url(../images/header-bg.jpg);
+    background-size:cover;
+    background-position:center;
+}
+.navbar{
+   /* background-color: gainsboro !important;*/
+    box-shadow: 0 3px 8px rgba(90, 168, 183, 0.7) ;
+}
+.navbar-brand , .nav-link{
+    color:#3292A6;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-right: 30px !important;
+}
+.nav-link.active , .nav-link:hover{
+    color:white !important ;
+
+}
+.btn:hover{
+    background-color: yellow !important;
+}
+#GALLERY{
+    width: 99%;
+}
+.gallery{
+    margin-bottom: -5px;
+    background-color: black;
+    overflow: hidden;
+}
+.gallery img{
+    width: 117%;
+    margin-left: -14px;
+    margin-top: -21px;
+    margin-bottom: -35px;
+    opacity: .5;
+    transition: 1s;
+    transform: scale(1.5);
+}
+.gallery img:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+#about img{
+    margin-top: -60px !important;
+}
